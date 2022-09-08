@@ -8,7 +8,7 @@
 </script>
 
 <section>
-	<h1>Safin Singh</h1>
+	<img src="/name.png" alt="Safin Singh" />
 	<p>
 		hi, i'm safin. i'm a high school student and programmer interested in cybersecurity. i've built
 		low-level *nix apps, security training tools, and way too many websites.
