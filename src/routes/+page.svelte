@@ -1,29 +1,10 @@
 <script lang="ts">
 	import Project from "$lib/components/Project.svelte";
 	import Link from "$lib/components/Link.svelte";
+	import { socials, recents } from "$lib/data";
+
 	import type { PageData } from "./$types";
-
 	export let data: PageData;
-
-	const socials = [
-		{ text: "github", link: "https://github.com/safinsingh" },
-		{ text: "linkedin", link: "https://www.linkedin.com/in/safinsingh/" }
-	];
-
-	const recents = [
-		{
-			text: "the verge - cloudflare & kiwi farms",
-			link: "https://www.theverge.com/2022/9/6/23339889/cloudflare-kiwi-farms-content-moderation-ddos"
-		},
-		{
-			text: "alphalist - language agnostic hiring",
-			link: "https://alphalist.com/blog/the-case-for-language-agnostic-hiring"
-		},
-		{
-			text: 'levelup - we\'re past "look at my github"',
-			link: "https://levelup.gitconnected.com/im-sorry-but-we-re-past-the-look-at-my-github-phase-17f796fa6db1"
-		}
-	];
 </script>
 
 <section>
@@ -52,8 +33,16 @@
 	i like documenting cool stuff i find or read. here's some of the stuff that has caught my
 	attention recently:
 </h2>
-<div class="section">
+<section>
 	{#each recents as { text, link }}
 		<Link {text} {link} />
 	{/each}
-</div>
+</section>
+
+<p id="copyright">Copyright © 2022 Safin Singh</p>
+
+<style>
+	#copyright {
+		padding-bottom: 2rem;
+	}
+</style>
