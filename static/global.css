@@ -16,6 +16,7 @@
 html,
 body {
 	height: 100%;
+	cursor: url("/cursor.png"), auto;
 }
 
 body {
@@ -77,4 +78,9 @@ section,
 h2,
 object {
 	margin-bottom: 2rem;
+}
+
+button:hover,
+a:hover {
+	cursor: url("/ow-hand.cur"), pointer !important;
 }
