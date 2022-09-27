@@ -5,8 +5,12 @@ export const socials = [
 
 export const recents = [
 	{
-		text: "the verge - cloudflare & kiwi farms",
-		link: "https://www.theverge.com/2022/9/6/23339889/cloudflare-kiwi-farms-content-moderation-ddos"
+		text: "medium - rbac-based authentication with rust, axum, and casbin",
+		link: "https://medium.com/@omprakashsridharan/rust-axum-casbin-authorisation-dc8926365613"
+	},
+	{
+		text: "protocol - figma ceo on the company's identity post-acquisition",
+		link: "https://www.protocol.com/workplace/adobe-figma-dylan-field-user-reactions"
 	},
 	{
 		text: "alphalist - language agnostic hiring",
