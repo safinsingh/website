@@ -5,6 +5,10 @@ export const socials = [
 
 export const recents = [
 	{
+		text: "infoworld - typescript 4.9 beta satisfies operator",
+		link: "https://www.infoworld.com/article/3674814/new-typescript-operator-finds-coding-mistakes.html"
+	},
+	{
 		text: "medium - rbac-based authentication with rust, axum, and casbin",
 		link: "https://medium.com/@omprakashsridharan/rust-axum-casbin-authorisation-dc8926365613"
 	},
