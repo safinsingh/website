@@ -5,6 +5,10 @@ export const socials = [
 
 export const recents = [
 	{
+		"text": "svelte team - sveltekit 1.0 release",
+		"link": "https://svelte.dev/blog/announcing-sveltekit-1.0",
+	},
+	{
 		text: "infoworld - typescript 4.9 beta satisfies operator",
 		link: "https://www.infoworld.com/article/3674814/new-typescript-operator-finds-coding-mistakes.html"
 	},
